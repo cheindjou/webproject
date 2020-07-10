@@ -6,8 +6,8 @@ provider "aws" {
     region     = "us-east-2"
  
 
-  shared_credentials_file = "/Users/chejuro/.aws/creds"
- profile                 = "chejuro"
+  #shared_credentials_file = "/Users/chejuro/.aws/creds"
+ #profile                 = "chejuro"
   }
 
 resource "aws_instance" "Jenkins" {
