@@ -2,7 +2,12 @@
 provider "aws" {
   region = "us-east-2"
  
- #shared_credentials_file = "./creds/serviceaccount.json"
+
+ 
+
+ shared_credentials_file = "/home/ubuntu/.aws/credentials"
+  profile = chejuro
+
 
 }
 
